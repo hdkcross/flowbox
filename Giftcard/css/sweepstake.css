@@ -1,0 +1,175 @@
+/* badge START */
+#badge .caption {
+	font-size:2em;
+	line-height:2em;
+}
+#badge .value {
+	font-size:1.5em;
+}
+
+#page_survey #badge .caption,
+#page_multicoreg #badge .caption {
+	font-size:1em;
+	line-height:1.5em;
+}
+#page_survey #badge .value,
+#page_multicoreg #badge .value {
+	font-size:1em;
+}
+
+#page_reg_full .formrow_optin input{
+    float: left;
+    margin: 3px 5px 0 0;
+}
+
+#page_reg_full .formrow_optin p {
+	padding-top: 0.2em;
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.3;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+}
+@media (max-width: 767px) {
+	#main #wrapper_prize #badge .caption {
+		font-size:1em;
+		line-height:1.5em;
+	}
+	#main #wrapper_prize #badge .value {
+		font-size:1em;
+	}
+	#page_reg_full .formrow_optin input {
+		margin-bottom:0;
+	}
+}
+@media (max-width: 479px) {
+	#main #wrapper_prize #badge .value {
+		font-size:0.625em;
+	}
+}
+/* badge END */
+
+/* registration forms START */
+.formrow #gender_male {
+	margin-right:10%;
+}
+.formrow #firstname {
+	width:42%;
+	float:left;
+}
+.formrow #lastname {
+	width:42%;
+	float:right;
+}
+.formrow #tel_number {
+	width:42%;
+	float:left;
+}
+
+#page_reg_full .formrow.formrow_optin {
+	font-size: 0.875em;
+	line-height: 1.1;
+}
+
+#page_reg_full .formrow #email {
+	width:42%;
+	float:right;
+}
+.formrow #zipcode {
+	width:25%;
+	float:left;
+}
+.formrow #street {
+	width:59.5%;
+	float:right;
+}
+.formrow #streetnr {
+	width:25%;
+	margin-right:2.5%;
+	float:left;
+}
+.formrow #apartment {
+	width:25%;
+	float:left;
+}
+.formrow #door {
+	width:25%;
+	float:right;
+}
+.formrow #dayofbirth,
+.formrow #monthofbirth {
+	width:12%;
+	float:left;
+	margin-right:2.5%;
+}
+.formrow #yearofbirth {
+	width:16%;
+	float:left;
+}
+.formrow .field_note {
+	display:block;
+	width:100%;
+	clear:both;
+}
+.formrow_dayofbirth label {
+	float:left;
+	display:inline-block;
+	width:34%;
+}
+
+.submit .optin {
+	font-size:0.54em;
+	line-height:1.1em;
+	text-align:left;
+	display:block;
+}
+
+div.submit {
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:0;
+	border-bottom:2px solid #845409;
+	display:inline-block;
+	font-size:1.4em;
+	color:#fff;
+	line-height:1.2em;
+	cursor:pointer;
+	padding:0.3em 2% 0.4em 2%;
+	margin:0 auto;
+	background:#ff9c00;
+	-webkit-transition:background, border-bottom 300ms ease-in-out;
+	-moz-transition:background, border-bottom 300ms ease-in-out;
+	-ms-transition:background, border-bottom 300ms ease-in-out;
+	-o-transition:background, border-bottom 300ms ease-in-out;
+	transition:background, border-bottom 300ms ease-in-out;
+}
+div.submit:hover {
+	border-bottom:2px solid #684107;
+	background:#E58900;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+	.status_email.mooli_error {
+		font-size:0.8em;
+	}
+
+	.formrow_dayofbirth label {
+		width:100%;
+	}
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+	.formrow_dayofbirth label {
+		width:100%;
+	}
+
+	.formrow #dayofbirth,
+	.formrow #monthofbirth {
+		width:16%;
+	}
+	.formrow #yearofbirth {
+		width:20%;
+	}	
+}
+/* registration forms END */

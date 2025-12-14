@@ -1,0 +1,29 @@
+/* Fonts START */
+@font-face {
+    font-family:'Roboto';
+    font-weight:300;
+    font-style:normal;
+    src:url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.eot');
+    src:url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.eot?') format('embedded-opentype'),
+         local('Roboto Light'),
+         local('Roboto-300'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.woff2') format('woff2'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.woff') format('woff'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.ttf') format('truetype'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-300.svg') format('svg');
+  }
+  
+  @font-face {
+    font-family:'Roboto';
+    font-weight:500;
+    font-style:normal;
+    src:url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.eot');
+    src:url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.eot?') format('embedded-opentype'),
+         local('Roboto Medium'),
+         local('Roboto-500'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.woff2') format('woff2'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.woff') format('woff'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.ttf') format('truetype'),
+         url('https://www.tuelecciondeldia.com/_global/fonts/roboto/Roboto-500.svg') format('svg');
+  }
+  /* Fonts END */

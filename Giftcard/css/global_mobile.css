@@ -1,0 +1,23 @@
+html.device_mobile input[type="radio"] {
+    min-width:28px;
+    min-height:28px;
+    -webkit-border-radius:28px;
+    -moz-border-radius:28px;
+    border-radius:28px;
+    border:0px;
+}
+
+html.device_mobile input[type="checkbox"] {
+    min-width:28px;
+    min-height:28px;
+    border:0px;
+}
+
+/* iOS START */
+@media (-webkit-min-device-pixel-ratio:0) {
+    html.device_mobile input[type="checkbox"],
+    html.device_mobile input[type="radio"] {
+        border:1px solid #000;
+    }
+}
+/* iOS END */

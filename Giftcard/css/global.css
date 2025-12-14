@@ -1,0 +1,42 @@
+/* new clearfix */
+.clearfix:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+    }
+* html .clearfix             { zoom:1; } /* IE6 */
+*:first-child+html .clearfix { zoom:1; } /* IE7 */
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+#perl_error {
+    border: 1px solid #a94442;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 0 0.5em 0;
+    padding: 0.3em 3%;
+    text-align: left;
+}
+
+#perl_error h3 {
+    font-weight: 500;
+    margin: 0.2em 0;
+    font-size: 1.125em;
+}
+
+#perl_error li {
+    list-style-type: circle;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 0 0 0 1.2em;
+}
